@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6EB2A04A2CE8323700D73159 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB2A0492CE8323700D73159 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6EB2A0242CE8315B00D73159 /* BankingAppKenan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingAppKenan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB2A04A2CE8323700D73159 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = BankingAppKenan;
 			packageProductDependencies = (
+				6EB2A0492CE8323700D73159 /* RealmSwift */,
 			);
 			productName = BankingAppKenan;
 			productReference = 6EB2A0242CE8315B00D73159 /* BankingAppKenan.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 6EB2A01B2CE8315B00D73159;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6EB2A0482CE8323700D73159 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6EB2A0252CE8315B00D73159 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6EB2A0482CE8323700D73159 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EB2A0492CE8323700D73159 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB2A0482CE8323700D73159 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EB2A01C2CE8315B00D73159 /* Project object */;
 }
